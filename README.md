@@ -1,14 +1,6 @@
-# Here is the live demo <a href="http://sincere-wind.surge.sh" style="font-size: 40px">CLICK TO SEE DEMO</a>
-
-![alt-text](https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/blob/master/ecm1-1.png)
-![alt-text](https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/blob/master/ecm2-2.png)
-![alt-text](https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/blob/master/ecm3.png)
-![alt-text](https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/blob/master/ecm4.png)
-![alt-text](https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/blob/master/ecm5.png)
-![alt-text](./src/assets/ss1.png)
 
 
-# ecomerce
+# Ecommerce Vue App
 
 ## Project setup
 ```
@@ -19,21 +11,24 @@ yarn install
 ```
 yarn run serve
 ```
+### Follow these steps to try out Zipy
 
-### Compiles and minifies for production
+1. Clone this repository
+2. Navigate to the app's directory and run the command 
+```bash
+npm install
 ```
-yarn run build
+3. Add the following in the <head> tag of index.html file in public folder with your Project SDK key found in project settings of your **Zipy** account.
+  
+  ```bash
+  <script src="https://cdn.zipy.ai/sdk/v1.0/zipy.min.umd.js" crossorigin="anonymous"></script> <script> window.zipy && window.zipy.init('PROJECT_SDK_KEY');</script>
+  ```
+  
+4. Run the command
+```bash
+npm start
 ```
+5. Clone and run [Error Thrower](https://github.com/sandeshmurdia/Error-thrower)(which will throw random network errors for your app) and run it. 
 
-### Run your tests
-```
-yarn run test
-```
+6. Perform some actions in the App and start seeing your session on your **Zipy Dashboard**.
 
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
