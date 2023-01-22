@@ -9,7 +9,6 @@
                 "token": "kjbdfhdh.djbr.scrff"
             }
           })
-      window.zipy.logMessage('hino');
 
           return response
     } catch(e) {
