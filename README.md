@@ -33,7 +33,7 @@ npm start
 6. Perform some actions in the App and start seeing your session on your **Zipy Dashboard**.
 
 
-###To generate errors try 
+### To generate errors try 
 1. Filtering brands.
 2. Filtering price.
 3. Pagination.
