@@ -9,6 +9,7 @@
                 "token": "kjbdfhdh.djbr.scrff"
             }
           })
+          window.zipy.logException(response);
 
           return response
     } catch(e) {
